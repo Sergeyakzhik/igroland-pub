@@ -1,0 +1,65 @@
+.catalog {
+    display: flex;
+
+    .left-section {
+        position: absolute;
+        left: -20%;
+        top: 50px;
+
+        .cbx {
+            font-size: 16px;
+            color: #000;
+            display: block;
+        }
+
+        label.max-price {
+            font-size: 16px;
+            color: #000;
+        }
+
+        .mdl-slider {
+            margin-bottom: 30px;
+
+            &:active::-webkit-slider-thumb,
+            &::-webkit-slider-thumb {
+                background: #0BA6BF;
+            }
+        }
+    }
+
+    .right-section {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+
+        .game-preview {
+            width: 33.33%;
+            padding: 30px;
+
+            h3 {
+                margin-bottom: 8px;
+            }
+
+            p:first-of-type {
+                font-size: 18px;
+                margin-bottom: 8px;
+            }
+
+            p:last-of-type {
+                font-size: 16px;
+                color: gray;
+            }
+
+            div.image-wrapper.game-picture {
+                height: 200px;
+
+                img {
+                    height: 100%;
+                    display: block;
+                    margin: auto;
+                    width: auto;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>ic_flipbook</title>
+    <desc>Created with Sketch.</desc>
+    <g id="ic_flipbook" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group-9" transform="translate(2.000000, 1.000000)" stroke="#0BA6BF">
+            <g id="Group-5" transform="translate(0.000000, 2.756846)">
+                <polygon id="Stroke-1" points="8.05228996 15.2619664 -0.000111673469 11.9333525 -0.000111673469 0.107504327 8.05228996 3.4361182"></polygon>
+                <polygon id="Stroke-3" points="8.05228996 15.2619664 16.1043193 11.9333525 16.1043193 0.107504327 8.05228996 3.4361182"></polygon>
+            </g>
+            <polyline id="Stroke-6" points="2.1707089 1.30903641 8.05217829 4.01376784 13.9340199 1.30903641"></polyline>
+            <polyline id="Stroke-7" points="4.40090253 0 8.05225273 1.67510204 11.7036029 0"></polyline>
+        </g>
+    </g>
+</svg>

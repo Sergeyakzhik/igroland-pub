@@ -1,0 +1,60 @@
+.new-tag-modal,
+.new-category-modal {
+    width: 500px;
+    height: 173px;	
+    top: 30%!important;
+    overflow-y: hidden;
+
+    .modal-content {
+        padding: 23px 16px;
+
+        h4 {
+            display: none;
+        }
+
+        input {
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+    }
+
+    .modal-footer {
+        display: none;
+    }
+
+    label {
+        color: #2E384D;
+        font-size: 15px;
+        font-weight: 500;
+
+        &.required::after {
+            content: "*";
+            margin-left: 5px;
+            color: #D33A3A;
+        }
+    } 
+
+    input:not(.rdw-embedded-modal-size-input) {
+        height: 42px;
+        border: 1px solid #E7E7E7;
+        border-radius: 4px;
+        background-color: #F1F1F1;
+        padding: 0 15px;
+        box-sizing: border-box;
+        outline: none;
+        font-family: Roboto;
+    }
+
+    .button-group {
+        display: flex;
+        justify-content: flex-end;
+
+        button {
+            width: 100px;
+            height: 36px;
+            line-height: 36px;
+            margin: 0 8px;
+            font-size: 16px;
+        }
+    }
+}

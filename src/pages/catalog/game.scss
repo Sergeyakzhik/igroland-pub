@@ -1,0 +1,138 @@
+section.game {
+    margin-top: 100px;
+    padding-top: 64px;
+
+    .container {
+        max-width: 1180px;
+    }
+
+    h3 {
+        margin: 0 0 10px 0;
+    }
+
+    .header-container {
+        color: #C1C1C1;
+        font-size: 14px;	
+        line-height: 24px;
+        position: relative;
+        margin-bottom: 30px;
+
+        i {
+            color: #222222;
+            font-size: 24px;	
+            transform: scaleX(-1);
+            position: relative;
+            margin-left: -30px;
+            cursor: pointer;
+            line-height: 30px;
+            position: absolute;
+        }
+
+        button {
+            height: 30px;	
+            width: 114px;
+            font-size: 12px;	
+            font-weight: bold;	
+            line-height: 30px;
+            text-transform: uppercase;
+        }
+
+        span {
+            margin-left: 16px;
+        }
+    }
+
+    .game {
+        .game-info {
+            display: flex;
+
+            div.image-wrapper {
+                width: 50%;
+            }
+
+            h3 {
+                margin: 0 0 70px 0;
+            }
+
+            p {
+                margin-bottom: 11px;
+            }
+        }
+
+        .game-description {
+            white-space: pre-wrap;
+        }   
+
+        h2 {
+            color: #222222;	
+            font-family: Raleway;	
+            font-size: 32px;	
+            font-weight: bold;	
+            line-height: 36px;
+            text-align: left;
+            margin: 0 0 20px 0;
+        }
+        
+        p {
+            color: #222222;	
+            font-size: 20px;	
+            line-height: 28px;
+            margin-bottom: 40px;
+        }
+
+        .image-wrapper.game-image {
+            height: 415px;
+            margin-bottom: 30px;
+
+            img {
+                height: 100%;
+                width: auto;
+                max-width: 100%;
+                display: block;
+                margin: auto;
+            }
+        }
+
+        img.post-img {
+            width: 219px;
+            float: left;
+            margin-right: 15px;
+        }
+
+        .amount-block {
+            display: flex;
+            margin-bottom: 16px;
+    
+            p {
+                margin-right: 20px;
+            }
+    
+            div.plus,
+            div.minus,
+            div.delete {
+                cursor: pointer;
+    
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+    
+            .total {
+                width: 148px;
+                height: 44px;
+                margin: 0 5px;
+                border: 1px solid #0BA6BF;
+                border-radius: 4px;
+                background-color: #FFFFFF;
+                text-align: center;
+                color: #000;
+    
+                &:focus {
+                    box-shadow: none;
+                }
+            }
+        }
+    
+    }
+}

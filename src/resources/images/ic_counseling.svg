@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="74px" viewBox="0 0 64 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>icon_counseling</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="10 79 73.9021176 79 73.9021176 5.4598963 10 5.4598963"></polygon>
+    </defs>
+    <g id="main-pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PGT-P" transform="translate(-328.000000, -1402.000000)">
+            <g id="01---pgt-a-intro" transform="translate(-1.000000, 142.000000)">
+                <g id="icon_counseling" transform="translate(319.000000, 1255.000000)">
+                    <rect id="mask" stroke="#979797" stroke-width="1.13513514" opacity="0" x="0.567567568" y="0.567567568" width="82.8648649" height="82.8648649"></rect>
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-23"></g>
+                    <path d="M33,45.9466667 L52,45.9466667" id="Stroke-1" stroke="#222222" stroke-width="1.88235294" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                    <path d="M33,52.8533333 L52,52.8533333" id="Stroke-2" stroke="#222222" stroke-width="1.88235294" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                    <path d="M33,59.76 L52,59.76" id="Stroke-3" stroke="#222222" stroke-width="1.88235294" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                    <g id="Group-26" mask="url(#mask-2)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.88235294">
+                        <g transform="translate(10.000000, 6.000000)">
+                            <polygon id="Stroke-4" stroke="#222222" points="20.9069804 0.281734815 42.659451 0.281734815 42.659451 4.67623852 20.9069804 4.67623852"></polygon>
+                            <path d="M20.9069804,4.67623852 C20.9069804,8.26551259 24.2381176,11.175083 28.3460392,11.175083 L35.2203922,11.175083 C39.3283137,11.175083 42.659451,8.26551259 42.659451,4.67623852" id="Stroke-6" stroke="#222222"></path>
+                            <polyline id="Stroke-8" stroke="#222222" points="56.848502 66.4960578 7.73791373 66.4960578 7.73791373 5.90102074 16.6433255 5.90102074"></polyline>
+                            <polyline id="Stroke-10" stroke="#222222" points="46.8953725 5.90102074 56.8486275 5.90102074 56.8486275 66.4960578"></polyline>
+                            <path d="M25.3680941,4.67623852 L38.4372706,4.67623852" id="Stroke-12" stroke="#222222"></path>
+                            <polyline id="Stroke-14" stroke="#222222" points="62.9609412 72.177723 62.9609412 0.282063704 42.6597647 0.282063704"></polyline>
+                            <polyline id="Stroke-16" stroke="#222222" points="20.9069804 0.282008889 0.941490196 0.282008889 0.941490196 72.1776681 62.9606275 72.1776681"></polyline>
+                            <path d="M35.5807373,20.1631363 C35.5807373,21.3531659 34.8340706,22.881403 33.728502,23.7513141 L33.7216,23.7513141 C33.1945412,24.17284 32.5796392,24.435403 31.9208157,24.435403 C31.3203451,24.435403 30.7568941,24.2177881 30.258698,23.8598474 C29.0728157,23.0156993 28.2602667,21.4041437 28.2602667,20.1631363 C28.2602667,18.3920696 29.8997961,16.9657881 31.9208157,16.9657881 C33.9412078,16.9657881 35.5807373,18.3920696 35.5807373,20.1631363 Z" id="Stroke-18" stroke="#0BA6BF"></path>
+                            <path d="M39.9511216,27.6075363 L39.9511216,31.4955511 L24.2704941,31.4955511 L24.2704941,27.6075363 C24.2704941,26.2514178 25.3101804,25.0619363 26.8110431,24.7171511 L30.2588863,23.8598474 C30.7564549,24.2177881 31.3205333,24.435403 31.9203765,24.435403 C32.5792,24.435403 33.194102,24.17284 33.7211608,23.7513141 L33.7286902,23.7513141 L37.4036706,24.7171511 C38.9045333,25.0619363 39.9511216,26.2514178 39.9511216,27.6075363 Z" id="Stroke-20" stroke="#0BA6BF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

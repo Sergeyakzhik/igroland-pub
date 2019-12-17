@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>icon_metabolism</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-1157.000000, -692.000000)" id="icon_metabolism">
+            <g transform="translate(1158.000000, 693.000000)">
+                <circle id="Oval" stroke="#F1F1F1" fill="#F9FAFA" cx="24" cy="24" r="24"></circle>
+                <polygon id="Rectangle" fill="#204156" fill-rule="nonzero" transform="translate(23.566682, 20.466489) rotate(-59.950000) translate(-23.566682, -20.466489) " points="23.2563336 17.6894175 23.9222833 17.6840471 23.8770302 23.24356 23.2110805 23.2489304"></polygon>
+                <polygon id="Rectangle" fill="#204156" fill-rule="nonzero" transform="translate(23.568802, 27.786063) rotate(-30.050000) translate(-23.568802, -27.786063) " points="20.7917311 27.475715 26.351244 27.4304619 26.3458736 28.0964116 20.7863607 28.1416647"></polygon>
+                <path d="M41.6666667,18.44 L38.3533333,20.3962264 L32.6666667,17.0475472 L27.0266667,20.3962264 L27,20.3962264 L21.3333333,17.0475472 L15.3333333,20.5898113 L15.3333333,27.2837736 L15.3,27.2837736 L12,29.2264151 L12.3333333,29.8071698 L15.63,27.8679245 L15.65,27.8679245 L21,31.0128302 L21,31.0128302 L21,34.6807547 L21.6666667,34.6807547 L21.6666667,31.009434 L27.3333333,27.6641509 L27.3333333,20.9837736 L27.36,20.96 L32.6933333,17.825283 L38.36,21.170566 L42,19.0377358 L41.6666667,18.44 Z M26.6666667,27.2701887 L21.3333333,30.4286792 L16,27.2769811 L16,20.9769811 L21.3333333,17.825283 L26.6666667,20.9769811 L26.6666667,27.2701887 Z" id="Shape" fill="#204156" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

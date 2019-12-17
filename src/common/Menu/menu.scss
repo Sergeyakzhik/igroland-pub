@@ -1,0 +1,73 @@
+.mdl-navigation__link.direct a {
+    transition: .2s linear 0s;
+    display: block;
+    padding: 10px;
+    border: 1px dashed transparent;
+    line-height: 1em;
+
+    &:hover {
+        border-color: #A1F2FF;
+        color: #A1F2FF;
+    }
+}
+
+.email-icon, .locations-icon {
+    width: 20px;
+    margin-right: 5px;
+    margin-top: -2px;
+}
+
+.mdl-layout__header .mdl-layout__header-row.header-second-row.transparent {
+    display: block;
+}
+
+.menu-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    .mdl-navigation {
+        margin: 0 auto;
+        width: 60%;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .logo-link, .cart-link {
+        position: absolute;
+    }
+
+    .cart-link {
+        right: 40px;
+
+        img {
+            height: 46px;
+        }
+    }
+}
+
+
+
+
+.mdl-navigation__link.direct.disabled {
+    pointer-events: none;
+    cursor: default;
+}
+
+.mdl-navigation__link.direct.disabled a {
+    color: #c6c9ca;
+}
+
+.header-first-row {
+    padding: 7px;
+
+    nav {
+        a {
+            margin-left: 30px;
+        }
+    }
+}
+
+.close-button {
+    display: none;
+}

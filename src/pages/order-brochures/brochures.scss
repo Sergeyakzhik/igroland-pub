@@ -1,0 +1,211 @@
+section.checkout {
+
+    &.order-sent {
+        background-image: url('../../resources/images/big_icon_g.svg');
+        background-position: top 180px center;
+        background-repeat: no-repeat;
+        min-height: 735px;
+    }
+
+    .divider {
+        margin-bottom: 26px;
+    }
+
+    div.image-wrapper {
+        width: 68px;
+        height: 64px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    div.order-list {
+        width: 960px;
+        min-height: 153px;
+        padding: 25px 0;
+        margin: 64px auto 30px auto;
+        margin-top: 64px;
+        background-color: #F7F7F7;
+
+        p {
+            margin: 0;
+
+            &.no-brochures {
+                line-height: 103px;
+            }
+        }
+
+        .button-group {
+            display: flex;
+            justify-content: center;
+            margin-top: 29px;
+
+            button {
+                margin: 0 10px;
+            }
+        }
+    }
+
+    .amount-block {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 16px;
+
+        p {
+            margin-right: 20px;
+        }
+
+        div.plus,
+        div.minus,
+        div.delete {
+            cursor: pointer;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .total {
+            width: 148px;
+            height: 44px;
+            margin: 0;
+            border: 1px solid #0BA6BF;
+            border-radius: 4px;
+            background-color: #FFFFFF;
+            text-align: center;
+            color: #000;
+
+            &:focus {
+                box-shadow: none;
+            }
+        }
+    }
+
+    .brochures-container {
+        width: 960px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .brochure {
+            width: 48%;
+            background-color: #F7F7F7;
+            margin-bottom: 20px;
+            padding: 40px 106px;
+
+            .image-wrapper {
+                width: 226px;
+                height: 250px;
+                margin: 0 auto 49px auto;
+            }
+
+            h3 {
+                margin-bottom: 10px;
+            }
+
+            a {
+                margin: auto;
+                margin-bottom: 30px;
+                display: block;
+                width: max-content;
+            }
+        }
+    }
+
+    .checkout-list {
+        .checkout-item {
+            width: 100%;
+            padding: 32px;
+            background-color: #F7F7F7;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+
+            p {
+                margin-bottom: 0;
+                line-height: 46px;
+            }
+
+            .amount-block {
+                margin: 0;
+
+                div.plus,
+                div.minus {
+                    margin: 0 6px;
+                }
+            }
+        }
+    }
+
+    .total-quantity {
+        padding: 6px 15% 0 15%;
+        width: 100%;
+        text-align: right;
+        border-bottom: 2px solid #F7F7F7;
+    }
+
+    .options {
+        padding: 20px 0;
+
+        a {
+            font-size: 20px;
+            font-weight: 500;
+            cursor: pointer;
+            line-height: 46px;
+        }
+
+        button {
+            float: right;
+            margin-right: 84px;
+            width: 254px;
+        }
+    }
+
+    .delivery-info {
+        margin-top: 50px;
+    }
+
+    p.fill-required {
+        font-size: 14px;
+        color: #bf0b14;
+    }
+
+    .order-sent-block {
+        margin-top: 50px;
+
+        .image-wrapper {
+            width: 100px;
+            height: auto;
+            margin-bottom: 48px;
+        }
+    }
+}
+
+.shipping-terms-modal {
+    max-width: 600px;
+    padding: 10px 26px 26px 26px;
+
+    .modal-footer {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: transparent;
+
+        .close-button {
+            display: inline-block;
+            position: relative;
+            top: 25px;
+            right: 50px;
+            line-height: 12px;
+            cursor: pointer;
+
+            i {
+                font-size: 16px;
+                line-height: 18px;
+                position: relative;
+                top: 3px;
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="46px" viewBox="0 0 46 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>ic_minus</title>
+    <desc>Created with Sketch.</desc>
+    <g id="ic_minus" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="button-copy" stroke="#0BA6BF">
+            <rect id="Rectangle-Copy-2" x="0.5" y="0.5" width="45" height="45" rx="4"></rect>
+        </g>
+        <rect id="Rectangle" fill="#0BA6BF" x="15" y="22" width="16" height="2"></rect>
+    </g>
+</svg>

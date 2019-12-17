@@ -1,0 +1,136 @@
+footer {
+    width: 100%;
+    height: auto;
+
+    .logo-section-mobile {
+        display: none;
+    }
+
+    img.footer-logo {
+        width: 160px;
+
+        &.second-logo {
+            margin-left: 6px;
+        }
+    }
+
+    .mdl-grid {
+        max-width: 1500px;
+        margin: auto;
+    }
+
+    .mdl-cell--3-col {
+        margin: 0;
+    }
+    .footer-logo_mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    footer {
+        img.footer-logo {
+            width: 70%;
+
+            &.second-logo {
+                width: 80%;
+            }
+        }
+
+        .mdl-cell--4-col {
+            width: 100%;
+            margin: 0 0 20px;
+        }
+
+        .mdl-cell--3-col {
+            .mdl-cell--3-col {
+                display: none;
+            }
+            &.logo-section {
+                width: 25%;
+            }
+            &.test-links {
+                width: 10%;
+                a {
+                    margin: 0 0 5px;
+                    display: inline-block;
+                }
+            }
+            &.privacy-links {
+                width: 25%;
+                li {
+                    margin: 0 0 5px;
+                }
+            }
+            &.contacts {
+                width: 40%;
+            }
+        }
+
+        .mdl-cell--9-col {
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 680px) {
+    footer {
+        .logo-section {
+            display: none;
+        }
+
+        .logo-section-mobile {
+            display: block;
+            width: 45%;
+        }
+
+        .footer-logo:not(.second-logo) {
+            display: none;
+        }
+
+        .footer-logo_mobile {
+            display: block;
+            max-width: 70px;
+        }
+
+        img.footer-logo.second-logo {
+            display: block;
+            max-width: 200px;
+        }
+
+        .mdl-cell--3-col {
+            &.test-links {
+                width: 55%;
+                padding-left: 5%;
+
+                a {
+                    margin: 0 0 5px;
+                    display: inline-block;
+                }
+            }
+            &.privacy-links {
+                width: 45%;
+
+                ul {
+                    margin-left: 0;
+                }
+
+                ul:first-child, p:first-child {
+                    margin-bottom: 0;
+                }
+
+                li {
+                    margin: 0 0 5px;
+                }
+            }
+            &.contacts {
+                width: 55%;
+                padding-left: 5%;
+            }
+        }
+
+        .mdl-cell--9-col {
+            width: 100%;
+        }
+    }
+}

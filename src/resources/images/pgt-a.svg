@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>icon_pgt-a</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="gpcl-Homepage" transform="translate(-304.000000, -1378.000000)" fill-rule="nonzero">
+            <g id="01-become-a-patient" transform="translate(0.000000, 816.000000)">
+                <g id="icon_pgt-a" transform="translate(304.000000, 562.000000)">
+                    <path d="M30,60 C46.542,60 60,46.542 60,30 C60,13.458 46.542,0 30,0 C13.458,0 0,13.458 0,30 C0,46.542 13.458,60 30,60 Z M30,2 C45.439,2 58,14.561 58,30 C58,45.439 45.439,58 30,58 C14.561,58 2,45.439 2,30 C2,14.561 14.561,2 30,2 Z" id="Shape" fill="#0BA6BF"></path>
+                    <path d="M30,50 C37.72,50 44,43.72 44,36 C44,28.28 37.72,22 30,22 C22.28,22 16,28.28 16,36 C16,43.72 22.28,50 30,50 Z M30,24 C36.617,24 42,29.383 42,36 C42,42.617 36.617,48 30,48 C23.383,48 18,42.617 18,36 C18,29.383 23.383,24 30,24 Z" id="Shape" fill="#222222"></path>
+                    <path d="M30,56 C44.336,56 56,44.336 56,30 C56,15.664 44.336,4 30,4 C15.664,4 4,15.664 4,30 C4,44.336 15.664,56 30,56 Z M30,6 C43.233,6 54,16.767 54,30 C54,43.233 43.233,54 30,54 C16.767,54 6,43.233 6,30 C6,16.767 16.767,6 30,6 Z" id="Shape" fill="#0BA6BF"></path>
+                    <path d="M30,46 C31.654,46 33,44.654 33,43 C33,41.346 31.654,40 30,40 C28.346,40 27,41.346 27,43 C27,44.654 28.346,46 30,46 Z M30,42 C30.551,42 31,42.449 31,43 C31,43.551 30.551,44 30,44 C29.449,44 29,43.551 29,43 C29,42.449 29.449,42 30,42 Z" id="Shape" fill="#0BA6BF"></path>
+                    <path d="M27,30 L27,28 C24.243,28 22,30.243 22,33 L24,33 C24,31.346 25.346,30 27,30 Z" id="Path" fill="#222222"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,205 @@
+.map {
+    height: 350px;
+    margin: 10px 0;
+    transition: height 0.5s;
+
+    &.with-form {
+        margin-top: 40px;
+    }
+
+    &.big {
+        height: 70vh;
+    }
+}
+
+.locations-table {
+    tr:hover td {
+        background-color: #FBFBFB;
+    }
+
+    th, td {
+        &:first-child {
+            width: 10%;
+            text-align: center;
+        }
+        &:nth-child(2) {
+            width: 30%;
+        }
+        &:nth-child(3) {
+            width: 30%;
+        }
+        &:nth-child(4) {
+            width: 10%;
+        }
+        &:nth-child(5) {
+            width: 10%;
+        }
+        &:last-child {
+            width: 10%;
+        }
+    }
+
+    td {
+        &:nth-child(2), &:nth-child(3) {
+            text-align: left;
+        }
+    }
+}
+
+div.form-wrapper {
+    height: 0;
+    padding: 0;
+    background-color: #FFF;
+    transition: transform 0.5s, height 0.5s, padding 0.5s;
+    transform: scaleY(0);
+    &.opened {
+        height: 150px;
+        padding: 16px;
+        transform: scaleY(1);
+    }
+    button {
+        width: 100px;
+        height: 36px;
+        font-size: 16px;
+        line-height: 36px;
+        float: right;
+        margin-top: 10px;
+        margin-right: 15px;
+    }
+}
+
+.map-wrapper {
+    position: relative;
+    .search-field {
+        width: 35%;
+        height: 50px;
+        position: absolute;
+        border-radius: 4px;
+        background-color: #F9F9F9;
+        border: 1px solid #E7E7E7;
+        bottom: 30px;
+        left: 30px;
+        input {
+            height: 100%;
+            border: none;
+            padding: 0 60px 0 15px;
+            outline: none;
+            font-family: Roboto;
+        }
+        i {
+            position: absolute;
+            opacity: 0.5;
+            top: 6px;
+            right: 10px;
+            font-size: 35px;
+            cursor: pointer;
+        }
+    }
+}
+
+.map-loading {
+    height: 370px;
+    padding-top: 120px;
+    text-align: center;
+}
+
+.delete-tooltip {
+    width: 180px;
+    height: auto;
+    box-shadow: 0 5px 12px 0 rgba(0,0,0,0.11);
+    p {
+        font-size: 14px;
+        font-weight: normal;
+        margin: 0;
+    }
+    .small-button {
+        width: 100%;
+        font-size: 12px;
+        height: 25px;
+        margin-top: 10px;
+    }
+}
+
+.mdl-button.disabled {
+    pointer-events: none;
+}
+
+.locations-progress {
+    padding: 30px 40px;
+    background-color: #FFFFFF;	
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+
+    &.with-offset {
+        margin-top: 40px;
+    }
+
+    h3, p {
+        margin: 0;
+        font-size: 15px;
+    }
+
+    .steps {
+        display: flex;
+        justify-content: space-between;
+        // margin-top: 40px;
+        position: relative;
+
+        hr {
+            position: absolute;
+            width: 31%;
+            height: 2px;
+            background-color: #D8D8D8;
+            opacity: 0.3;
+            margin: 0;
+            top: 20px;
+
+            &:first-of-type {
+                left: 15%;
+            }
+
+            &:last-of-type {
+                right: 15%;
+            }
+        }
+
+        .step {
+            width: 22%;
+
+            .status-mark {
+                box-sizing: border-box;	
+                height: 44px;	
+                width: 44px;	
+                border: 4px solid #D8D8D8;
+                border-radius: 50%;
+                margin: 0 auto 20px auto;
+                transform: rotate(45deg);
+                transition: border-color 1s;
+
+                &.in-progress {
+                    border-top-color: #0BA6BF;
+                    border-right-color: #0BA6BF;
+                }
+
+                &.done {
+                    border-color: #0BA6BF;
+                    i {
+                        display: block;
+                        opacity: 1;
+                    }
+                }
+
+                i {
+                    display: none;
+                    color: #0BA6BF;
+                    font-weight: 900;
+                    line-height: 36px;
+                    width: 36px;
+                    text-align: center;
+                    opacity: 0;
+                    transform: rotate(-45deg);
+                    transition: opacity 1s;
+                }
+            }
+        }
+    }
+}

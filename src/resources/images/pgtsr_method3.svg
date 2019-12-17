@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="444px" viewBox="0 0 800 444" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>pgtsr_method3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="main-pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PGT-SR" transform="translate(-329.000000, -5673.000000)">
+            <g id="04---wich-dosorders" transform="translate(0.000000, 3998.000000)">
+                <g id="pgtsr_method3" transform="translate(329.000000, 1673.589844)">
+                    <text id="Paracentric-Inversio" font-family="Roboto-Regular, Roboto" font-size="20" font-weight="normal" line-spacing="18" fill="#222222">
+                        <tspan x="73" y="21">Paracentric Inversion</tspan>
+                        <tspan x="96.6367188" y="43.1621094" font-size="12">(Does not include centromere)</tspan>
+                    </text>
+                    <text id="Paracentric-Inversio" font-family="Roboto-Regular, Roboto" font-size="20" font-weight="normal" line-spacing="18" fill="#222222">
+                        <tspan x="571" y="21">Paracentric Inversion</tspan>
+                        <tspan x="616.864258" y="43.1621094" font-size="12">(Includes centromere)</tspan>
+                    </text>
+                    <g id="Group-5" transform="translate(4.000000, 60.000000)">
+                        <rect id="Rectangle" stroke="#0BA6BF" stroke-width="2" x="1" y="1" width="35" height="114" rx="4"></rect>
+                        <rect id="Rectangle" fill="#0BA6BF" x="2" y="38" width="35" height="1"></rect>
+                        <rect id="Rectangle-Copy" fill="#0BA6BF" x="2" y="77" width="35" height="1"></rect>
+                        <text id="A-B-C" font-family="Roboto-Regular, Roboto" font-size="20" font-weight="normal" line-spacing="39" fill="#222222">
+                            <tspan x="12.0253906" y="22">A</tspan>
+                            <tspan x="12.1083984" y="61">B</tspan>
+                            <tspan x="12.1669922" y="100">C</tspan>
+                        </text>
+                    </g>
+                    <g id="Rectangle-Copy-15" transform="translate(666.500000, 303.500000) rotate(-180.000000) translate(-666.500000, -303.500000) translate(648.000000, 284.000000)">
+                        <path d="M1,37 L36,37 L36,4 C36,2.34314575 34.6568542,1 33,1 L4,1 C2.34314575,1 1,2.34314575 1,4 L1,37 Z" id="Rectangle-Copy-14" stroke="#E7CB4D" stroke-width="2" transform="translate(18.500000, 19.000000) rotate(-180.000000) translate(-18.500000, -19.000000) "></path>
+                        <text id="C" font-family="Roboto-Regular, Roboto" font-size="20" font-weight="normal" line-spacing="39" fill="#E7CB4D">
+                            <tspan x="12.1669922" y="21">C</tspan>
+                        </text>
+                    </g>
+                    <g id="Rectangle-Copy-17" transform="translate(777.500000, 309.910156) rotate(-180.000000) translate(-777.500000, -309.910156) translate(759.000000, 290.410156)">
+                        <path d="M1,37 L36,37 L36,4 C36,2.34314575 34.6568542,1 33,1 L4,1 C2.34314575,1 1,2.34314575 1,4 L1,37 Z" id="Rectangle-Copy-14" stroke="#E7CB4D" stroke-width="2" transform="translate(18.500000, 19.000000) rotate(-180.000000) translate(-18.500000, -19.000000) "></path>
+                        <text id="C" font-family="Roboto-Regular, Roboto" font-size="20" font-weight="normal" line-spacing="39" fill="#E7CB4D">
+                            <tspan x="12.1669922" y="21">C</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-5-Copy-6" transform="translate(520.000000, 60.000000)">
+                        <rect id="Rectangle" stroke="#0BA6BF" stroke-width="2" x="1" y="1" width="35" height="114" rx="4"></rect>
+                        <path d="M1,115 L36,115 L36,82 C36,80.3431458 34.6568542,79 33,79 L4,79 C2.34314575,79 1,80.3431458 1,82 L1,115 Z" id="Rectangle" stroke="#E7CB4D" stroke-width="2" transform="translate(18.500000, 97.000000) rotate(-180.000000) translate(-18.500000, -97.000000) "></path>
+                        <rect id="Rectangle" fill="#0BA6BF" x="2" y="38" width="35" height="1"></rect>
+                        <rect id="Rectangle-Copy" fill="#0BA6BF" x="2" y="77" width="35" height="1"></rect>
+                        <text id="A-B-C" font-family="Roboto-Regular, Roboto" font-size="20" font-weight="normal" line-spacing="39">
+                            <tspan x="12.0253906" y="22" fill="#222222">A</tspan>
+                            <tspan x="12.1083984" y="61" fill="#222222">B</tspan>
+                            <tspan x="12.1669922" y="100" fill="#E7CB4D">C</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-5-Copy-9" transform="translate(759.000000, 123.000000)">
+                        <path d="M1,78 L36,78 L36,4 C36,2.34314575 34.6568542,1 33,1 L4,1 C2.34314575,1 1,2.34314575 1,4 L1,78 Z" id="Rectangle" stroke="#0BA6BF" stroke-width="2"></path>
+                        <rect id="Rectangle" fill="#0BA6BF" x="2" y="38" width="35" height="1"></rect>
+                        <text id="A-B" font-family="Roboto-Regular, Roboto" font-size="20" font-weight="normal" line-spacing="39" fill="#222222">
+                            <tspan x="12.0253906" y="22">A</tspan>
+                            <tspan x="12.1083984" y="61">B</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-5-Copy-3" transform="translate(269.000000, 60.000000)">
+                        <rect id="Rectangle" stroke="#0BA6BF" stroke-width="2" x="1" y="1" width="35" height="114" rx="4"></rect>
+                        <rect id="Rectangle" fill="#0BA6BF" x="2" y="38" width="35" height="1"></rect>
+                        <rect id="Rectangle-Copy" fill="#0BA6BF" x="2" y="77" width="35" height="1"></rect>
+                        <text id="A-B-C" font-family="Roboto-Regular, Roboto" font-size="20" font-weight="normal" line-spacing="39" fill="#222222">
+                            <tspan x="12.0253906" y="22">A</tspan>
+                            <tspan x="12.1083984" y="61">B</tspan>
+                            <tspan x="12.1669922" y="100">C</tspan>
+                        </text>
+                    </g>
+                    <rect id="Rectangle-Copy-3" fill="#0BA6BF" x="0" y="182" width="45" height="1"></rect>
+                    <rect id="Rectangle-Copy-13" fill="#0BA6BF" x="516" y="182" width="45" height="1"></rect>
+                    <rect id="Rectangle-Copy-16" fill="#0BA6BF" x="755" y="285.410156" width="45" height="1"></rect>
+                    <rect id="Rectangle-Copy-12" fill="#0BA6BF" x="265" y="182" width="45" height="1"></rect>
+                    <g id="Group-8" transform="translate(50.000000, 207.000000)" fill="#0BA6BF">
+                        <rect id="Rectangle-Copy-8" x="0" y="0" width="15" height="1"></rect>
+                        <rect id="Rectangle-Copy-10" x="16" y="41" width="35" height="1"></rect>
+                        <path id="Path" d="M44.3317834,56.2712922 C45.2065419,56.4230348 46.0981714,56.5 47,56.5 C55.5604136,56.5 62.5,49.5604136 62.5,41 C62.5,32.4395864 55.5604136,25.5 47,25.5 L47,24.5 C56.1126984,24.5 63.5,31.8873016 63.5,41 C63.5,50.1126984 56.1126984,57.5 47,57.5 C45.9372263,57.5 44.8872293,57.3994553 43.8599328,57.2014855 L41.9914738,60.8849149 L36.0008135,52.8002386 L46.0629506,52.8585162 L44.3317834,56.2712922 Z" fill-rule="nonzero"></path>
+                        <rect id="Rectangle-Copy-11" transform="translate(15.500000, 41.500000) scale(1, -1) rotate(270.000000) translate(-15.500000, -41.500000) " x="-26" y="41" width="83" height="1"></rect>
+                        <rect id="Rectangle-Copy-9" x="0" y="82" width="15" height="1"></rect>
+                    </g>
+                    <g id="Group-8-Copy" transform="translate(566.000000, 207.000000)" fill="#0BA6BF">
+                        <rect id="Rectangle-Copy-8" x="0" y="0" width="15" height="1"></rect>
+                        <rect id="Rectangle-Copy-10" x="16" y="41" width="35" height="1"></rect>
+                        <path id="Path" d="M44.3317834,56.2712922 C45.2065419,56.4230348 46.0981714,56.5 47,56.5 C55.5604136,56.5 62.5,49.5604136 62.5,41 C62.5,32.4395864 55.5604136,25.5 47,25.5 L47,24.5 C56.1126984,24.5 63.5,31.8873016 63.5,41 C63.5,50.1126984 56.1126984,57.5 47,57.5 C45.9372263,57.5 44.8872293,57.3994553 43.8599328,57.2014855 L41.9914738,60.8849149 L36.0008135,52.8002386 L46.0629506,52.8585162 L44.3317834,56.2712922 Z" fill-rule="nonzero"></path>
+                        <rect id="Rectangle-Copy-11" transform="translate(15.500000, 41.500000) scale(1, -1) rotate(270.000000) translate(-15.500000, -41.500000) " x="-26" y="41" width="83" height="1"></rect>
+                        <rect id="Rectangle-Copy-9" x="0" y="82" width="15" height="1"></rect>
+                    </g>
+                    <g id="Group-5-Copy" transform="translate(5.183594, 188.000000)">
+                        <path d="M1,37 L36,37 L36,4 C36,2.34314575 34.6568542,1 33,1 L4,1 C2.34314575,1 1,2.34314575 1,4 L1,37 Z" id="Rectangle" stroke="#E7CB4D" stroke-width="2"></path>
+                        <path d="M1,199 L36,199 L36,166 C36,164.343146 34.6568542,163 33,163 L4,163 C2.34314575,163 1,164.343146 1,166 L1,199 Z" id="Rectangle-Copy-7" stroke="#0BA6BF" stroke-width="2" transform="translate(18.500000, 181.000000) rotate(-180.000000) translate(-18.500000, -181.000000) "></path>
+                        <rect id="Rectangle-Copy-4" stroke="#0B42BF" stroke-width="2" x="1" y="39" width="35" height="40"></rect>
+                        <rect id="Rectangle-Copy-5" stroke="#222222" stroke-width="2" x="1" y="81" width="35" height="40"></rect>
+                        <rect id="Rectangle-Copy-6" stroke="#0BA6BF" stroke-width="2" x="1" y="123" width="35" height="40"></rect>
+                        <text id="D-E-F-G-H" font-family="Roboto-Regular, Roboto" font-size="20" font-weight="normal" line-spacing="40">
+                            <tspan x="11.9130859" y="21" fill="#E7CB4D">D</tspan>
+                            <tspan x="25.0869141" y="21" fill="#222222"></tspan>
+                            <tspan x="12.6552734" y="61" fill="#222222">E</tspan>
+                            <tspan x="12.6748047" y="101" fill="#222222">F</tspan>
+                            <tspan x="11.6835938" y="141" fill="#222222">G</tspan>
+                            <tspan x="11.3662109" y="181" fill="#222222">H</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-5-Copy-7" transform="translate(521.183594, 188.000000)">
+                        <path d="M1,37 L36,37 L36,4 C36,2.34314575 34.6568542,1 33,1 L4,1 C2.34314575,1 1,2.34314575 1,4 L1,37 Z" id="Rectangle" stroke="#0B42BF" stroke-width="2"></path>
+                        <path d="M1,197 L36,197 L36,164 C36,162.343146 34.6568542,161 33,161 L4,161 C2.34314575,161 1,162.343146 1,164 L1,197 Z" id="Rectangle-Copy-7" stroke="#0BA6BF" stroke-width="2" transform="translate(18.500000, 179.000000) rotate(-180.000000) translate(-18.500000, -179.000000) "></path>
+                        <rect id="Rectangle-Copy-4" stroke="#222222" stroke-width="2" x="1" y="39" width="35" height="40"></rect>
+                        <rect id="Rectangle-Copy-5" stroke="#0BA6BF" stroke-width="2" x="1" y="81" width="35" height="40"></rect>
+                        <rect id="Rectangle-Copy-6" stroke="#0BA6BF" stroke-width="2" x="1" y="121" width="35" height="40"></rect>
+                        <text id="D-E-F-G-H" font-family="Roboto-Regular, Roboto" font-size="20" font-weight="normal" line-spacing="40">
+                            <tspan x="11.9130859" y="21" fill="#0B42BF">D</tspan>
+                            <tspan x="25.0869141" y="21" fill="#222222"></tspan>
+                            <tspan x="12.6552734" y="61" fill="#222222">E</tspan>
+                            <tspan x="12.6748047" y="101" fill="#222222">F</tspan>
+                            <tspan x="11.6835938" y="141" fill="#222222">G</tspan>
+                            <tspan x="11.3662109" y="181" fill="#222222">H</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-5-Copy-11" transform="translate(759.000000, 327.410156)">
+                        <path d="M1,117 L36,117 L36,84 C36,82.3431458 34.6568542,81 33,81 L4,81 C2.34314575,81 1,82.3431458 1,84 L1,117 Z" id="Rectangle-Copy-7" stroke="#0BA6BF" stroke-width="2" transform="translate(18.500000, 99.000000) rotate(-180.000000) translate(-18.500000, -99.000000) "></path>
+                        <rect id="Rectangle-Copy-5" stroke="#0BA6BF" stroke-width="2" x="1" y="1" width="35" height="40"></rect>
+                        <rect id="Rectangle-Copy-6" stroke="#0BA6BF" stroke-width="2" x="1" y="41" width="35" height="40"></rect>
+                        <text id="F-G-H" font-family="Roboto-Regular, Roboto" font-size="20" font-weight="normal" line-spacing="40" fill="#222222">
+                            <tspan x="12.6748047" y="21">F</tspan>
+                            <tspan x="11.6835938" y="61">G</tspan>
+                            <tspan x="11.3662109" y="101">H</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-5-Copy-8" transform="translate(666.500000, 244.000000) rotate(-180.000000) translate(-666.500000, -244.000000) translate(648.000000, 204.000000)">
+                        <path d="M1,37 L36,37 L36,4 C36,2.34314575 34.6568542,1 33,1 L4,1 C2.34314575,1 1,2.34314575 1,4 L1,37 Z" id="Rectangle" stroke="#0B42BF" stroke-width="2"></path>
+                        <rect id="Rectangle-Copy-4" stroke="#222222" stroke-width="2" x="1" y="39" width="35" height="40"></rect>
+                        <text id="D-E" font-family="Roboto-Regular, Roboto" font-size="20" font-weight="normal" line-spacing="40">
+                            <tspan x="11.9130859" y="21" fill="#0B42BF">D</tspan>
+                            <tspan x="25.0869141" y="21" fill="#222222"></tspan>
+                            <tspan x="12.6552734" y="61" fill="#222222">E</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-5-Copy-10" transform="translate(777.500000, 241.410156) rotate(-180.000000) translate(-777.500000, -241.410156) translate(759.000000, 201.410156)">
+                        <path d="M1,37 L36,37 L36,4 C36,2.34314575 34.6568542,1 33,1 L4,1 C2.34314575,1 1,2.34314575 1,4 L1,37 Z" id="Rectangle" stroke="#0B42BF" stroke-width="2"></path>
+                        <rect id="Rectangle-Copy-4" stroke="#222222" stroke-width="2" x="1" y="39" width="35" height="40"></rect>
+                        <text id="D-E" font-family="Roboto-Regular, Roboto" font-size="20" font-weight="normal" line-spacing="40">
+                            <tspan x="11.9130859" y="21" fill="#0B42BF">D</tspan>
+                            <tspan x="25.0869141" y="21" fill="#222222"></tspan>
+                            <tspan x="12.6552734" y="61" fill="#222222">E</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-5-Copy-5" transform="translate(269.000000, 306.000000)">
+                        <path d="M1,80 L36,80 L36,47 C36,45.3431458 34.6568542,44 33,44 L4,44 C2.34314575,44 1,45.3431458 1,47 L1,80 Z" id="Rectangle-Copy-7" stroke="#0BA6BF" stroke-width="2" transform="translate(18.500000, 62.000000) rotate(-180.000000) translate(-18.500000, -62.000000) "></path>
+                        <rect id="Rectangle-Copy-6" stroke="#0BA6BF" stroke-width="2" x="1" y="4" width="35" height="40"></rect>
+                        <text id="G-H" font-family="Roboto-Regular, Roboto" font-size="20" font-weight="normal" line-spacing="40" fill="#222222">
+                            <tspan x="11.6835938" y="21">G</tspan>
+                            <tspan x="11.3662109" y="61">H</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-5-Copy-2" transform="translate(163.500000, 258.000000) rotate(-180.000000) translate(-163.500000, -258.000000) translate(145.000000, 197.000000)">
+                        <path d="M1,37 L36,37 L36,4 C36,2.34314575 34.6568542,1 33,1 L4,1 C2.34314575,1 1,2.34314575 1,4 L1,37 Z" id="Rectangle" stroke="#E7CB4D" stroke-width="2"></path>
+                        <rect id="Rectangle-Copy-4" stroke="#0B42BF" stroke-width="2" x="1" y="39" width="35" height="40"></rect>
+                        <rect id="Rectangle-Copy-5" stroke="#222222" stroke-width="2" x="1" y="81" width="35" height="40"></rect>
+                        <text id="D-E-F" font-family="Roboto-Regular, Roboto" font-size="20" font-weight="normal" line-spacing="40">
+                            <tspan x="11.9130859" y="21" fill="#E7CB4D">D</tspan>
+                            <tspan x="25.0869141" y="21" fill="#222222"></tspan>
+                            <tspan x="12.6552734" y="61" fill="#222222">E</tspan>
+                            <tspan x="12.6748047" y="101" fill="#222222">F</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-5-Copy-4" transform="translate(287.500000, 248.000000) rotate(-180.000000) translate(-287.500000, -248.000000) translate(269.000000, 187.000000)">
+                        <rect id="Rectangle" stroke="#E7CB4D" stroke-width="2" x="1" y="1" width="35" height="36"></rect>
+                        <rect id="Rectangle-Copy-4" stroke="#0B42BF" stroke-width="2" x="1" y="39" width="35" height="40"></rect>
+                        <path d="M1,81 L1,118 C1,119.656854 2.34314575,121 4,121 L33,121 C34.6568542,121 36,119.656854 36,118 L36,81 L1,81 Z" id="Rectangle-Copy-5" stroke="#222222" stroke-width="2"></path>
+                        <text id="D-E-F" font-family="Roboto-Regular, Roboto" font-size="20" font-weight="normal" line-spacing="40">
+                            <tspan x="11.9130859" y="21" fill="#E7CB4D">D</tspan>
+                            <tspan x="25.0869141" y="21" fill="#222222"></tspan>
+                            <tspan x="12.6552734" y="61" fill="#222222">E</tspan>
+                            <tspan x="12.6748047" y="101" fill="#222222">F</tspan>
+                        </text>
+                    </g>
+                    <path id="Line" d="M241.738281,249 L203,249 L203,248 L241.738281,248 L241.738281,244 L250.738281,248.5 L241.738281,253 L241.738281,249 Z" fill="#979797" fill-rule="nonzero"></path>
+                    <path id="Line-Copy-7" d="M738.107422,249.919922 L699.369141,249.919922 L699.369141,248.919922 L738.107422,248.919922 L738.107422,244.919922 L747.107422,249.419922 L738.107422,253.919922 L738.107422,249.919922 Z" fill="#979797" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
