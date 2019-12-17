@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import OrdersList from './OrdersList';
 import { ordersOperations } from '../../../store/operations';
 
-const OrdersListContainer = ({ orders, fetching, getOrders, setOrders, updateOrder, deleteOrder, changeOrdersOrder }) => {
+const OrdersListContainer = ({ orders, fetching, getOrders, setOrders, updateOrder, changeOrdersOrder }) => {
 
     const [isUpdating, setUpdating] = useState(null);
 

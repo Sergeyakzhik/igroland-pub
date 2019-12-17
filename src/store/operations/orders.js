@@ -1,5 +1,5 @@
 import { orders } from '../actions';
-import { Orders } from '../../api';
+import { Orders, Brochures } from '../../api';
 
 const requestOrdersAction = orders.Creators.requestOrders;
 const receiveOrdersAction = orders.Creators.receiveOrders;
@@ -16,6 +16,7 @@ const getOrders = () => async dispatch => {
     
     try {
         let result = await Orders.getOrders();
+        result = await result.json();
 
         dispatch(receiveOrdersAction(result));
     } catch (err) {
@@ -29,21 +30,28 @@ const createOrder = values => async dispatch => {
     try {
         let { ...data } = values;
 
-        console.log(data)
+        data.games = Object.values(data.order);
 
-        // const OrdersNumberResponse = await Orders.getOrdersNumber(); 
+        const OrdersNumberResponse = await Orders.getOrdersNumber(); 
 
-        // if (OrdersNumberResponse.status === 200) {
-        //     const OrdersNumber = await OrdersNumberResponse.json();
+        if (OrdersNumberResponse.status === 200) {
+            const OrdersNumber = await OrdersNumberResponse.json();
             
-        //     data.order = OrdersNumber;
+            data.order = OrdersNumber;
 
-        //     const result = await Orders.createOrder(data);
+            const result = await Orders.createOrder(data);
 
-        //     if (result.status === 200) {
-        //         dispatch(receiveOrderCreationAction());
-        //     }
-        // }
+            if (result.status === 200) {
+                dispatch(receiveOrderCreationAction());
+
+                await Brochures.sendOrder({
+                    ...data,
+                    region: data.region.value,
+                    city: data.city.value,
+                    order: data.games
+                });
+            }
+        }
     } catch (err) {
         console.log(err);
     }

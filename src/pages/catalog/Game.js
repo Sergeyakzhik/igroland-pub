@@ -44,29 +44,7 @@ const Game = ({ game, match, order, getGame, clearGame, setOrder, ...props }) =>
         }
     };
 
-    const handleClear = () => {
-        // setAmount({ ...initialValues });
-        // setOrderList({ ...initialValues });
-    };
-
     const handleSubmit = async ({ country, region, city, ...values }) => {
-        // try {
-        //     const result = await BrochuresAPI.sendOrder({
-        //         ...values,
-        //         country: country.value,
-        //         region: region.value,
-        //         city: city.value,
-        //         order: orderList
-        //     });
-
-        //     if (result.status === 200) {
-        //         setOrderSent(true);
-        //     } else {
-        //         throw new Error('Error while sending order');
-        //     }
-        // } catch (err) {
-        //     console.log(err);
-        // }
     };  
 
     return (
@@ -102,20 +80,20 @@ const Game = ({ game, match, order, getGame, clearGame, setOrder, ...props }) =>
                                         <img src={plus} alt="plus"/>
                                     </div>
                                 </div>
-                                {order[game.id] > 0 ? (
-                                    order[game.id] === amount ? (
+                                {order[game.id] && order[game.id].amount > 0 ? (
+                                    order[game.id].amount === amount ? (
                                         <Link to="/checkout">
                                             <button className="mdl-button mdl-js-button purple-button" onClick={() => setIsCheckout(true)}>
                                                 Перейти в корзину
                                             </button>
                                         </Link>
                                     ) : (
-                                        <button className="mdl-button mdl-js-button green-button" onClick={() => setOrder(game.id, amount)}>
+                                        <button className="mdl-button mdl-js-button green-button" onClick={() => setOrder(game.id, { amount, price: game.price * amount, title: game.title })}>
                                             Изменить количество
                                         </button>
                                     )
                                 ) : (
-                                    <button className="mdl-button mdl-js-button blue-button" onClick={() => setOrder(game.id, amount)}>
+                                    <button className="mdl-button mdl-js-button blue-button" onClick={() => setOrder(game.id, { amount, price: game.price * amount, title: game.title })}>
                                         Добавить в корзину
                                     </button>
                                 )} 

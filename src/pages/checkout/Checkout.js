@@ -17,16 +17,16 @@ const Checkout = ({ order, games, setOrder, createOrder }) => (
             </div>
             <div className="mdl-cell mdl-cell--12-col">
                 <div className="checkout-list">
-                    {Object.keys(order).filter(key => order[key] > 0).map((key, ind) => (
+                    {Object.keys(order).filter(key => order[key].amount > 0).map((key, ind) => (
                         <div key={'checkout-item-' + ind} className="checkout-item">
-                            <p className="license-code">{games.find(item => item.id === parseInt(key, 10)).title}</p>
+                            <p className="license-code">{order[key].title}</p>
                             <div className="amount-block">
                                 <p>Корзина:</p>
-                                <div className="minus" onClick={() => !(order[key] - 1 === 0 && Object.values(order).filter(item => item).length === 1) && setOrder(key, order[key] - 1)}>
+                                <div className="minus" onClick={() => !(order[key].amount - 1 === 0 && Object.values(order).filter(item => item.amount).length === 1) && setOrder(key, order[key].amount - 1)}>
                                     <img src={minus} alt="minus"/>
                                 </div>
-                                <input className="total" value={order[key]} disabled/>
-                                <div className="plus" onClick={() => setOrder(key, order[key] + 1)}>
+                                <input className="total" value={order[key].amount} disabled/>
+                                <div className="plus" onClick={() => setOrder(key, order[key].amount + 1)}>
                                     <img src={plus} alt="plus"/>
                                 </div>
                                 <div className="delete" onClick={() => setOrder(key, 0)}>

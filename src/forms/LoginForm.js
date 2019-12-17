@@ -6,7 +6,6 @@ const LoginForm = ({ formData: { username, password }, onChange, onSubmit }) => 
     <form className="admin-form login-form">
         <div className="mdl-grid mdl-grid--no-spacing">
             <div className="mdl-cell mdl-cell--12-col">
-                <label htmlFor="username">Username</label>
                 <input 
                     className="mdl-textfield__input browser-default" 
                     placeholder="Имя Пользователя" 
@@ -18,7 +17,6 @@ const LoginForm = ({ formData: { username, password }, onChange, onSubmit }) => 
                 />
             </div>
             <div className="mdl-cell mdl-cell--12-col">
-                <label htmlFor="password">Password</label>
                 <input 
                     className="mdl-textfield__input browser-default" 
                     placeholder="Пароль" 

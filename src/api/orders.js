@@ -29,7 +29,7 @@ export default {
             body: JSON.stringify(data)
         };
 
-        return fetch(URL + '/create-game', options);
+        return fetch(URL + '/create-order', options);
     },
 
     updateOrder: async (data, id) => {
@@ -42,7 +42,7 @@ export default {
             body: JSON.stringify(data)
         };
 
-        return fetch(URL + '/game/' + id, options);
+        return fetch(URL + '/order/' + id, options);
     },
 
     setPublished: (id, isPublished) => {
@@ -55,7 +55,7 @@ export default {
             body: JSON.stringify({ published: isPublished })
         };
 
-        return fetch(URL + `/game/${id}/publish`, options);
+        return fetch(URL + `/order/${id}/publish`, options);
     },
 
     changeOrdersOrder: data => {

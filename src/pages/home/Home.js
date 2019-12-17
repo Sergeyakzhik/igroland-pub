@@ -259,6 +259,7 @@ const Home = props => {
                     </div>
                 </div>
             </section>
+            {/* <NewGames /> */}
             <section className="contact-us" id="contact-us">
                 <div className="mdl-grid container">
                     <div className="mdl-cell mdl-cell--12-col">
