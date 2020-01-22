@@ -27,7 +27,7 @@ const OrdersListContainer = ({ orders, fetching, getOrders, setOrders, updateOrd
     const handlePublishedChange = async (id, published, e) => {
         e.stopPropagation();
         setUpdating(id);
-        await updateOrder({ published }, id);
+        await updateOrder({ completed: published }, id);
         await getOrders();
         setUpdating(null);
     };

@@ -1,6 +1,8 @@
 import fetch from 'cross-fetch';
 
-const URL = 'http://192.168.100.4:3002/api/blog';
+import config from './config';
+
+const URL = config.PREFIX + 'blog';
 
 export default {
     
@@ -12,7 +14,7 @@ export default {
             }
         };
 
-        return fetch(URL + '/', options);
+        return fetch(URL, options);
     },
 
     getPublishedBlogPosts: () => {

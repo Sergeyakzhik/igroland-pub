@@ -1,6 +1,8 @@
 import fetch from 'cross-fetch';
 
-const URL = 'http://192.168.100.4:3002/api/games';
+import config from './config';
+
+const URL = config.PREFIX + 'games';
 
 export default {
     

@@ -5,7 +5,7 @@ import './preview.scss';
 
 const GamePreview = ({ data }) => (
     <div className="game-preview">
-        <Link to={`/catalog/${data.id}`}>
+        <Link to={`/catalog/game/${data.id}`}>
             <div className="image-wrapper game-picture">
                 <img src={data.image} alt="img"/>
             </div>

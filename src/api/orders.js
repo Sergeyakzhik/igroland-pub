@@ -1,6 +1,8 @@
 import fetch from 'cross-fetch';
 
-const URL = 'http://192.168.100.4:3002/api/orders';
+import config from './config';
+
+const URL = config.PREFIX + 'orders';
 
 export default {
     
@@ -52,7 +54,7 @@ export default {
                 'authorization': `Bearer ${localStorage.getItem('token')}`, 
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify({ published: isPublished })
+            body: JSON.stringify({ completed: isPublished })
         };
 
         return fetch(URL + `/order/${id}/publish`, options);

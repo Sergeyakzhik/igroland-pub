@@ -27,7 +27,8 @@ function App() {
                                     <Route path='/order-brochures' component={Pages.Brochures} />
                                     <Route path='/locations' component={Pages.Locations} />
                                     <Route exact path='/catalog' component={Pages.Catalog} />
-                                    <Route path='/catalog/:id' component={Pages.Game} />
+                                    <Route exact path='/catalog/:category' component={Pages.Catalog} />
+                                    <Route path='/catalog/game/:id' component={Pages.Game} />
                                     <Route path='/checkout' component={Pages.Checkout} />
                                     <Route component={Pages.NoMatch} /> 
                                 </Switch>

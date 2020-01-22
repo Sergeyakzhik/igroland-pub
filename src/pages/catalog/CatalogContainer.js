@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { connect } from 'react-redux';
 
 import Catalog from './Catalog';
@@ -16,28 +16,7 @@ const CatalogContainer = ({ games, fetching, getGames }) => {
         getGames(true);
     }, [getGames]);
 
-    useEffect(() => {
-        setPreparedData(prepareData(games));
-    }, [options, games]);
-
-    const handleOptionsChange = (type, value) => {
-        setOptions({
-            ...options,
-            [type]: value
-        });
-    };
-
-    const toggleCategory = category => {
-        setOptions({
-            ...options,
-            CATEGORIES: {
-                ...options.CATEGORIES,
-                [category]: !options.CATEGORIES[category]
-            }
-        })
-    };
-
-    const prepareData = games => {
+    const prepareData = useCallback(games => {
         let result = [ ...games ];
         const selectedCategories = Object.keys(options.CATEGORIES).filter(key => options.CATEGORIES[key]);
 
@@ -65,6 +44,27 @@ const CatalogContainer = ({ games, fetching, getGames }) => {
         };
 
         return result;
+    }, [options.CATEGORIES, options.MAX_PRICE, options.SORT]);
+
+    useEffect(() => {
+        setPreparedData(prepareData(games));
+    }, [games, prepareData]);
+
+    const handleOptionsChange = (type, value) => {
+        setOptions({
+            ...options,
+            [type]: value
+        });
+    };
+
+    const toggleCategory = category => {
+        setOptions({
+            ...options,
+            CATEGORIES: {
+                ...options.CATEGORIES,
+                [category]: !options.CATEGORIES[category]
+            }
+        })
     };
 
     return (

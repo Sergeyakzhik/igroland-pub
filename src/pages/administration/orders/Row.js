@@ -1,13 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import ReactTooltip from 'react-tooltip';
 import { Draggable } from 'react-beautiful-dnd';
 
 import { Checkbox } from '../../../common';
 
 import checkbox_spinner from '../../../resources/images/checkbox-spinner.gif';
 
-const Row = ({ data, index, fetching, history, isUpdating, onDelete, onPublishedChange }) => (
+const Row = ({ data, index, fetching, isUpdating, onPublishedChange }) => (
     <Draggable draggableId={data.id} index={index}>
         {(provided, snapshot) => (
             <tr

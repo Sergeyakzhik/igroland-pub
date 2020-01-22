@@ -1,6 +1,8 @@
 import fetch from 'cross-fetch';
 
-const URL = 'http://192.168.100.4:3002/api/locations';
+import config from './config';
+
+const URL = config.PREFIX + 'locations';
 
 export default {
     

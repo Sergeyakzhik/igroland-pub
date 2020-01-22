@@ -69,7 +69,7 @@ const Home = props => {
                             </div>
                         </div>
                         <div className="mdl-cell mdl-cell--4-col">
-                            <Link to="/pgt-a">
+                            <Link to="/catalog/family">
                                 <div className="mdl-grid game-item">
                                     <div className="mdl-cell mdl-cell--3-col">
                                         <div className="image-wrapper pgt">
@@ -89,7 +89,7 @@ const Home = props => {
                             </Link>
                         </div>
                         <div className="mdl-cell mdl-cell--4-col">
-                            <Link to="/pgt-sr">
+                            <Link to="/catalog/party">
                                 <div className="mdl-grid">
                                     <div className="mdl-cell mdl-cell--3-col">
                                         <div className="image-wrapper pgt">
@@ -109,7 +109,7 @@ const Home = props => {
                             </Link>
                         </div>
                         <div className="mdl-cell mdl-cell--4-col">
-                            <Link to="/pgt-p">
+                            <Link to="/catalog/kids">
                                 <div className="mdl-grid">
                                     <div className="mdl-cell mdl-cell--3-col">
                                         <div className="image-wrapper pgt">
@@ -129,7 +129,7 @@ const Home = props => {
                             </Link>
                         </div>
                         <div className="mdl-cell mdl-cell--4-col">
-                            <Link to="/pgt-m">
+                            <Link to="/catalog/brain">
                                 <div className="mdl-grid">
                                     <div className="mdl-cell mdl-cell--3-col">
                                         <div className="image-wrapper pgt">
@@ -149,7 +149,7 @@ const Home = props => {
                             </Link>
                         </div>
                         <div className="mdl-cell mdl-cell--4-col">
-                            <Link to="/pgt-m">
+                            <Link to="/catalog/cards">
                                 <div className="mdl-grid">
                                     <div className="mdl-cell mdl-cell--3-col">
                                         <div className="image-wrapper pgt">
@@ -169,7 +169,7 @@ const Home = props => {
                             </Link>
                         </div>
                         <div className="mdl-cell mdl-cell--4-col">
-                            <Link to="/pgt-m">
+                            <Link to="/catalog/jigsaws">
                                 <div className="mdl-grid">
                                     <div className="mdl-cell mdl-cell--3-col">
                                         <div className="image-wrapper pgt">
